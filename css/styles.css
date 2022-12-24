@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+.head-section {
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.head-adv-section {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.head-section a {
+    margin-left: 20px;
+    color: black;
+    font-size: small;
+    text-decoration: none;
+}
+
+.head-section a:hover {
+    border-bottom: 1px solid black;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+#main #image {
+    padding: 35px;
+}
+
+#main #inputField {
+    padding: 10px;
+    width: 550px;
+    height: 20px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+#main #inputField:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+#main #inputField input {
+    width: 93%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 20px;
+
+}
+
+#main #button {
+    display: flex;
+    justify-content: center;
+}
+
+#main #button input {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px 10px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#main #button input:hover {
+    border: 2px solid lightgray;
+}
+
+#main i {
+    margin-left: 5px;
+    margin-top: 2px;
+    align-items: center;
+    color: darkgray;
+}
+
+#main-as {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+
+}
+
+.appbar {
+    display: flex;
+    align-items: center;
+    color: firebrick;
+    height: 2vh;
+    font-size: x-large;
+    margin: 25px 35px;
+}
+
+.border {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#main-as .gap {
+    float: left;
+    display: inline-block;
+    min-width: 47px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 42%;
+}
+
+#main-as #as-form {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.input-header{
+    font-size: large;
+    float: left;
+    display: inline-block;
+    width: 190px;
+    font-weight: 500;
+}
+
+    .input-header-right{
+    float: left;
+    display: inline-block;
+    width: 20%;
+    min-width: 160px;
+    color: #555;
+    font-size: 13px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.input-right{
+    float: unset;
+    display: inline-block;
+    width: 20%;
+    min-width: 160px;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.inputsp{
+    width: 100%;
+    clear: both;
+}
+
+.as-textinput{
+    display: inline-block;
+    float: left;
+    width: 190px;
+    height: 42px;
+    font-size: 15px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.as-input{
+    display: inline-block;
+    float: left;
+    min-width: 47px;
+    height: 25px;
+    width: 42%;
+}
+
+.inputrel{
+    width: 100%;
+    clear: both;
+}
+.table{
+    position: relative;
+    display: inline-block;
+    width: 42%;
+    vertical-align: middle;
+    min-height: 41px;
+}
+.tbinput{
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.action-button{
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    background: #4787ed;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
